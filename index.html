@@ -68,7 +68,7 @@
 
       <section class="advantages-page">
         <div class="container">
-          <h2 class="visualy-hidden">no-title</h2>
+          <h2 class="visually-hidden">no-title</h2>
           <ul class="our-advantages">
             <li class="our-advantages-container">
               <div class="border-icon">
@@ -547,14 +547,18 @@
             </svg>
           </div>
           </div>
-          <div class="form-item">
+          <div class="form-item  textarea-comment">
             <label class="form-label" for="user-comment">Comment</label>
             <textarea class="form-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
           </div>
           <div class="privacy-policy">
-            <input class="form-checkbox visualy-hidden" id="privacy-policy" name="privacy-policy" type="checkbox" value="true" required>
-            <label class="form-label" for="privacy-policy">
-              <span class="checkbox-style"></span>I accept the terms and conditions of the <a class="privacy-policy-style" href="">Privacy Policy</a></label>
+            <input class="form-checkbox visually-hidden" id="user-privacy" name="user-privacy" type="checkbox" value="true" required>
+            <label class="form-label" for="user-privacy">
+              <span class="checkbox-style">
+                <svg class="vector-icon" width="10" height="8" aria-label="checkbox icon">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>I accept the terms and conditions of the <a class="privacy-policy-style" href="">Privacy Policy</a></label>
           </div>
         </form>
         <button class="send-button" type="submit">Send</button>
