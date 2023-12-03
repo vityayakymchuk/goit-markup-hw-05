@@ -658,9 +658,12 @@ border-color: #4D5AE5;
 }
 
 .form-checkbox:checked + .form-label > .checkbox-style {
-    border-color: #4D5AE5;
-    background-color: #4D5AE5;
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;;
 }
+
+.form-checkbox:checked 
 
 .privacy-policy-style {
     color: var(--IRIS, #4D5AE5);
