@@ -580,6 +580,17 @@ letter-spacing: 0.04em;}
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.input-icon {
+    stroke: #2E2F42;
+    fill: #2E2F42;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+    stroke: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .form-input:focus {
 border-color: #4D5AE5;
 }
@@ -619,14 +630,6 @@ border-color: #4D5AE5;
 }
 .svg-input-container {
     position: relative;
-}
-.input-icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 16px;
-    stroke: #2E2F42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .privacy-policy {
