@@ -666,11 +666,12 @@ border-color: #4D5AE5;
 .form-checkbox:checked 
 
 .privacy-policy-style {
-    color: var(--IRIS, #4D5AE5);
+    color: var(#4D5AE5);
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     text-decoration-line: underline;
+    
 }
 
 .send-button {font-family: "Roboto", sans-serif;
@@ -682,7 +683,7 @@ border-color: #4D5AE5;
     letter-spacing: 0.04em;
     color: #ffffff;
     display: block;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     padding: 16px 32px;
