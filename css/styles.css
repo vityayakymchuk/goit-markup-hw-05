@@ -663,16 +663,9 @@ border-color: #4D5AE5;
     fill: #F4F4FD;;
 }
 
-.form-checkbox:checked 
-
-.privacy-policy-style {
+.privacy-policy-decoration {
     color: #4d5ae5;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.04em;
-    text-decoration-line: underline;
-    
-}
+    text-decoration-line: underline;}
 
 .send-button {font-family: "Roboto", sans-serif;
     background: #4D5AE5;
